@@ -1,0 +1,87 @@
+-<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="texto-blanco">Mi Presentación</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            padding: 20px;
+            width: 70%;
+            margin: auto;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+        }
+        .container img {
+            display: block;
+            margin: 20px auto;
+        }
+        .container h1, .container h2, .container p, .container ul {
+            text-align: center;
+        }
+    </style>
+    <style>
+        .texto-blanco {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Mi presentacion</h2>
+        <img src="Img/Imagen de WhatsApp 2024-05-23 a las 22.07.25_49962a04.jpg" width="65%" height="800px" alt="...">
+        <h1 class="texto-blanco">Angie</h1>
+        <h2 class="texto-blanco">Edad</h2>
+        <p class="texto-blanco">20</p>
+        <h2 class="texto-blanco">Acerca de Mi</h2>
+        <p class="texto-blanco">Nací en Cancún Quintana Roo, el 3 de agosto de 2003. Me gusta dibujar, editar videos, pasar tiempo con mis primitos y escuchar música.</p>
+        <h2 class="texto-blanco">Mis comidas favoritas</h2>
+        <center>
+            <p class="texto-blanco">Pizza</p>
+            <p class="texto-blanco">Hamburguesa</p>
+            <p class="texto-blanco">sushi</p>
+            <p class="texto-blanco">pozole</p>
+        </center>
+        <h2 class="texto-blanco">Mis aristas y bandas musicales favoritos</h2>
+        <p class="texto-blanco">Becky g</p>
+        <p class="texto-blanco">Karol g</p>
+        <p class="texto-blanco">Rauw Alegrandro</p>
+        <p class="texto-blanco">Feid</p>
+        <p class="texto-blanco">Mora</p>
+        <p class="texto-blanco">Danna Paola</p>
+        <h2 class="texto-blanco">Si deseas saber mas de mi deja tus datos y yo te contacto </h2>
+        <h1 class="texto-blanco">Formulario de contacto</h1>
+        <div class="container">
+            <h2 class="texto-blanco">Contacto</h2>
+            <form action="enviar.php" method="post">
+                <label class="texto-blanco" for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label class="texto-blanco" for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label  class="texto-blanco" for="celular">Celular</label>
+                <input type="celular" id="celular" name="celular" required>
+    
+                <label class="texto-blanco" for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+    
+                <button  type="submit">Enviar</button>
+            </form>
+        </div>
+        
+
+       
+    </div>
+    <style>
+        header{
+            background-color: slateblue;
+        }
+        body{
+            background-color: #2471A3;
+        }
+
+        
+    </style>
+</body>
+</html>
